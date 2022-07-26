@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="loginPageContent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1100.0" stylesheets="@../CSS/LoginScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <center>
+      <AnchorPane prefHeight="680.0" prefWidth="534.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="421.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="LoginScreenHeader" text="Login Page" />
+            <Button fx:id="loginButton" layoutX="314.0" layoutY="396.0" mnemonicParsing="false" onAction="#loginHandler" prefHeight="41.0" prefWidth="472.0" styleClass="signUpScreenLeftButton" stylesheets="@../CSS/SignupScreen.css" text="LOGIN" />
+            <TextField fx:id="userRegistrationOrUserName" layoutX="317.0" layoutY="296.0" prefHeight="41.0" prefWidth="468.0" promptText="Registration" styleClass="signUpScreenLeftInput" stylesheets="@../CSS/SignupScreen.css">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </TextField>
+            <Button fx:id="LoginScreenSignup" layoutX="487.0" layoutY="461.0" mnemonicParsing="false" onAction="#signUpButtonHandler" prefHeight="23.0" prefWidth="110.0" styleClass="LoginSignupButton" stylesheets="@../CSS/WelcomeScreen.css" text="Signup" />
+            <Text layoutX="330.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="DontHaveAccount" text="Don't have an account ?" />
+            <PasswordField fx:id="userPassword" layoutX="317.0" layoutY="344.0" prefHeight="41.0" prefWidth="468.0" promptText="Password" styleClass="signUpScreenLeftInput" stylesheets="@../CSS/SignupScreen.css">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </PasswordField>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

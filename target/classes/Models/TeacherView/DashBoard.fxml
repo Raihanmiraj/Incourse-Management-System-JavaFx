@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="680.0" prefWidth="928.0" stylesheets="@../../CSS/DashboardScreen.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.TeachersController.DashBoardController">
+   <children>
+      <AnchorPane layoutX="609.0" layoutY="44.0" prefHeight="135.0" prefWidth="309.0" styleClass="DashboardScreenTotalClasses" stylesheets="@../../CSS/DashboardScreen.css">
+         <children>
+            <Text fx:id="upcomingclassname12" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="DashboardScreenUpcomingClassesItemDate" text="Total Classes Today" />
+            <Text fx:id="totalClassToday" layoutX="41.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="DashboardAttendanceNumber" text="0" wrappingWidth="49.751953125" />
+            <ImageView fitHeight="95.0" fitWidth="135.0" layoutX="200.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Dashboard/Schedule.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="609.0" layoutY="203.0" prefHeight="138.0" prefWidth="309.0" styleClass="DashboardScreenTotalClassesBelowAverage" stylesheets="@../../CSS/DashboardScreen.css">
+         <children>
+            <Text fx:id="upcomingclassname121" layoutX="14.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="DashboardScreenUpcomingClassesItemDate" text="Attendance Below Averge in Classes" wrappingWidth="231.4189453125" />
+            <Text fx:id="attendanceBelowInAverage" layoutX="41.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="DashboardAttendanceNumber" text="0" />
+            <ImageView fitHeight="95.0" fitWidth="135.0" layoutX="186.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Dashboard/belowAvera.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="609.0" layoutY="362.0" prefHeight="132.0" prefWidth="309.0" styleClass="DashboardScreenTotalClassesAboveAverage" stylesheets="@../../CSS/DashboardScreen.css">
+         <children>
+            <Text fx:id="upcomingclassname156" layoutX="14.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="AboveAverageText" text="Attendance Above Average in Classes" />
+            <Text fx:id="AttendanceAvobeAverage" layoutX="41.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <styleClass>
+                  <String fx:value="DashboardAttendanceNumber" />
+                  <String fx:value="DashboardAttendanceNumberAbove" />
+               </styleClass>
+            </Text>
+            <ImageView fitHeight="95.0" fitWidth="135.0" layoutX="186.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../assets/Dashboard/AboveAverage.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <VBox fx:id="classRoutineVbox" layoutX="20.0" layoutY="43.0" prefHeight="556.0" prefWidth="569.0" spacing="11.0" />
+   </children>
+</AnchorPane>

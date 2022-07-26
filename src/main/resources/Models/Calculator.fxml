@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="489.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Models.Calculator">
+   <children>
+      <Button fx:id="one" layoutX="7.0" layoutY="122.0" mnemonicParsing="false" onAction="#oneHandle" text="1" />
+      <Button fx:id="two" layoutX="41.0" layoutY="122.0" mnemonicParsing="false" onAction="#twoHandle" text="2" />
+      <Button fx:id="three" layoutX="89.0" layoutY="122.0" mnemonicParsing="false" onAction="#threeHandle" text="3" />
+      <Button fx:id="four" layoutX="7.0" layoutY="161.0" mnemonicParsing="false" onAction="#fourHandle" text="4" />
+      <Button fx:id="five" layoutX="41.0" layoutY="161.0" mnemonicParsing="false" onAction="#fiveHandle" text="5" />
+      <Button fx:id="six" layoutX="89.0" layoutY="161.0" mnemonicParsing="false" onAction="#sixHandle" text="6" />
+      <Button fx:id="plus" layoutX="141.0" layoutY="122.0" mnemonicParsing="false" onAction="#plusHandle" text="+" />
+      <Button layoutX="143.0" layoutY="161.0" mnemonicParsing="false" onAction="#minusHandle" text="-" />
+      <Label fx:id="box" layoutX="19.0" layoutY="29.0" prefHeight="57.0" prefWidth="258.0" />
+   </children>
+</AnchorPane>
