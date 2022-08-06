@@ -3,6 +3,8 @@ module Models {
     requires javafx.fxml;
     requires java.sql;
     requires org.xerial.sqlitejdbc;
+    requires json.simple;
+    requires android.json;
 
 
     opens Models to javafx.fxml;

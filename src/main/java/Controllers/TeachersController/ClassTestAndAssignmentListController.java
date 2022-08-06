@@ -182,15 +182,6 @@ String query = "SELECT * FROM `incourse_type` WHERE  `teacher_id` = "+ DataManag
         event.consume();
     }
 
-    @FXML
-    private void handleGitButtonClicked(ActionEvent event) {
-        new Application() {
-            @Override
-            public void start(Stage stage) {
-            }
-        }.getHostServices().showDocument("https://github.com/edencoding/javafx-ui/");
-        event.consume();
-    }
 
     public void handleClearSearchText(ActionEvent event) {
         searchBox.setText("");
