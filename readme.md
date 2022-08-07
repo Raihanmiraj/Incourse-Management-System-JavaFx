@@ -1,6 +1,6 @@
 # MECCSE
 
-![Project Image](/Images/MECCSECover.png)
+![Project Image](/Images/dashboard.png)
 
 > A project developed for MECCSE.
 
@@ -56,15 +56,17 @@ Find the Class MECCSE in Models Package and Run the application
 ---
 
 ## Project Interface
+![Login](/Images/login.png)
+![Dashboard](/Images/dashboard.png)
+![Onboarding](/Images/courses.png)
 
-![Onboarding](/Images/OnboardingScreen.png)
-![Login](/Images/LoginScreen.png)
-![Signup](/Images/SignupScreen.png)
-![Dashboard](/Images/DashboardScreen.png)
-![Classroom](/Images/ClassroomScreen.png)
-![Attendance](/Images/AttendanceScreen.png)
-![Booklet](/Images/BookletScreen.png)
-![CGPACalculator](/Images/CGPACalculatorScreen.png)
+
+[//]: # (![Signup]&#40;/Images/view.png&#41;)
+
+![Classroom](/Images/view.png)
+![Attendance](/Images/view_results.png)
+![Booklet](/Images/students.png)
+![CGPACalculator](/Images/database.png)
 
 ## [Back To The Top](#MECCSE)
 
